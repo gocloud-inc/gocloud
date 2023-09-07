@@ -12,7 +12,7 @@
         </div>
 
         <p class="text-gray-500 dark:text-gray-300">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident ab nulla quod dignissimos vel non corrupti doloribus voluptatum eveniet
+            We create user interfaces and experiences that are both visually appealing and functional. Our goal is to make your website or app easy to use and enjoyable for your customers.
         </p>
     </div>
 
@@ -29,7 +29,7 @@
         </div>
 
         <p class="text-gray-500 dark:text-gray-300">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident ab nulla quod dignissimos vel non corrupti doloribus voluptatum eveniet
+            We develop mobile apps for iOS and Android devices. Our apps are feature-rich, user-friendly, and secure.
         </p>
     </div>
 

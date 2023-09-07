@@ -24,6 +24,8 @@
 
             <div class="flex flex-wrap justify-center mt-8 gap-2 animate__animated animate__fadeInUp">
                 <NuxtLink to="/contact-us" class="button-primary max-sm:w-full">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 2.001a4 4 0 0 1 3.771 2.666a1 1 0 0 1-1.84.774l-.045-.107a2 2 0 0 0-3.88.517L10.002 6v1.999L17.75 8a2.25 2.25 0 0 1 2.245 2.096l.005.154v9.496a2.25 2.25 0 0 1-2.096 2.245l-.154.005H6.25A2.25 2.25 0 0 1 4.005 19.9L4 19.746V10.25a2.25 2.25 0 0 1 2.096-2.245L6.25 8l1.751-.001V6A3.999 3.999 0 0 1 12 2.001zM12 13.5a1.499 1.499 0 1 0 0 2.997a1.499 1.499 0 0 0 0-2.997z" fill="currentColor" fill-rule="nonzero"/></svg>
+
                     Unlock Business Growth
                 </NuxtLink>
                 <a href="tel:info@gocloudgroup.com" class="button-secondary max-sm:w-full">
@@ -102,11 +104,13 @@
                     </h2>
         
                     <p class="mt-4 text-gray-500 xl:mt-3" data-aos="fade-up" data-aos-duration="500">
-                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nostrum quam voluptatibus
+                        We are committed to providing you with the best possible service.
                     </p>
                 </div>
-                <NuxtLink to="/services" class="button-primary">
+                <NuxtLink to="/services" class="button-secondary">
                     View all services
+
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="currentColor" d="M13.267 4.209a.75.75 0 0 0-1.034 1.086l6.251 5.955H3.75a.75.75 0 0 0 0 1.5h14.734l-6.251 5.954a.75.75 0 0 0 1.034 1.087l7.42-7.067a.996.996 0 0 0 .3-.58a.758.758 0 0 0-.001-.29a.995.995 0 0 0-.3-.578l-7.419-7.067Z"/></svg>
                 </NuxtLink>
             </div>
 
@@ -129,8 +133,10 @@
                     </p>
                 </div>
     
-                <NuxtLink to="/products" class="button-primary">
+                <NuxtLink to="/products" class="button-secondary">
                     View all products
+
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="currentColor" d="M13.267 4.209a.75.75 0 0 0-1.034 1.086l6.251 5.955H3.75a.75.75 0 0 0 0 1.5h14.734l-6.251 5.954a.75.75 0 0 0 1.034 1.087l7.42-7.067a.996.996 0 0 0 .3-.58a.758.758 0 0 0-.001-.29a.995.995 0 0 0-.3-.578l-7.419-7.067Z"/></svg>
                 </NuxtLink>
             </div>
 

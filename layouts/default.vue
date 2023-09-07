@@ -119,4 +119,8 @@
     nav.stay-sticky {
         @apply bg-white py-5 border shadow-sm transition-all duration-300 ease-in-out;
     }
+
+    nav .router-link-exact-active {
+        @apply text-blue-500 font-semibold;
+    }
 </style>
