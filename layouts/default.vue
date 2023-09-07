@@ -1,8 +1,8 @@
 <template>
     <nav class="navbar px-6 lg:px-12 py-8 mx-auto fixed top-0 w-full z-10 lg:flex lg:justify-between lg:items-center">
         <div class="flex items-center justify-between">
-            <NuxtLink to="/">
-                <img class="w-auto h-10" src="@/assets/img/logo.png" alt="">
+            <NuxtLink to="/" aria-label="Gocloud Inc.">
+                <img class="w-auto h-10" src="@/assets/img/logo.webp" width="32" height="32" alt="Gocloud Inc.">
             </NuxtLink>
 
             <!-- Mobile menu button -->
@@ -105,7 +105,7 @@
                 <div class="flex mt-3 -mx-2 sm:mt-0">
                     <NuxtLink to="/terms-and-conditions" class="mx-2 text-sm text-gray-300 transition-colors duration-300 hover:text-gray-200">Terms of Use</NuxtLink>
                     <NuxtLink to="/privacy-policy" class="mx-2 text-sm text-gray-300 transition-colors duration-300 hover:text-gray-200">Privacy Policy</NuxtLink>
-                    <a href="#" class="mx-2 text-sm text-gray-300 transition-colors duration-300 hover:text-gray-200" aria-label="Reddit">Cookies</a>
+                    <a href="#" class="mx-2 text-sm text-gray-300 transition-colors duration-300 hover:text-gray-200">Cookies</a>
                 </div>
             </div>
         </div>

@@ -1,7 +1,10 @@
-<script setup>
-    useHead({
+<script setup lang="ts">
+    useSeoMeta({
         title: 'Gocloud Inc.',
-        description: 'GOCLOUD Inc. is committed to innovate and simplify day to day data processes of present industries through the most relevant software products.'
+        ogTitle: 'Gocloud Inc.',
+        description: 'GOCLOUD Inc. is committed to innovate and simplify day to day data processes of present industries through the most relevant software products.',
+        ogDescription: 'GOCLOUD Inc. is committed to innovate and simplify day to day data processes of present industries through the most relevant software products.',
+        ogImage: '@/assets/img/logo.png',
     })
 </script>
 

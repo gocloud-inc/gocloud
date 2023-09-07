@@ -105,13 +105,15 @@
     </section>
 </template>
 
-<script setup>
-    const metaTitle = 'Contact Us'
-    const metaDescription = 'Let’s build something amazing together.'
+<script setup lang="ts">
+    const metaTitle = ref('Contact Us')
+    const metaDescription = ref('Let’s build something amazing together.')
 
-    useHead({
+    useSeoMeta({
         title: metaTitle,
-        description: metaDescription
+        ogTitle: metaTitle,
+        description: metaDescription,
+        ogDescription: metaDescription,
     })
 </script>
 

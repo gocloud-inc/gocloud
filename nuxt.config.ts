@@ -8,6 +8,9 @@ export default defineNuxtConfig({
 		baseURL: '/gocloud/',
     	buildAssetsDir: 'assets',
 		head: {
+			htmlAttrs: {
+				lang: 'en',
+			},
 			meta: [
 				{
 					name: 'robots',
@@ -26,7 +29,16 @@ export default defineNuxtConfig({
 				{
 					rel: 'icon',
 					type: 'image/png',
-					href: '/logo.png',
+					href: '/gocloud/logo.png',
+				},
+				{
+					rel: "preconnect",
+					href: "https://fonts.googleapis.com",
+				},
+				{
+					rel: "preconnect",
+					href: "https://fonts.gstatic.com",
+					crossorigin: 'anonymous'
 				},
 				{
 					rel: "stylesheet",

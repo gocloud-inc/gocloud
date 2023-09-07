@@ -1,6 +1,6 @@
 <template>
     <div class="space-y-3 rounded-lg p-6 bg-gray-50 hover:shadow-lg transition-all duration-300 ease-in-out hover:-translate-y-6">
-        <img class="w-40" src="@/assets/img/products/logo-academe-sms.png" alt="Academe SMS">
+        <img loading="lazy" class="w-40 h-auto" src="@/assets/img/products/logo-academe-sms.webp" alt="Academe SMS">
 
         <div class="flex flex-nowrap items-center justify-between gap-4">
             <p class="text-gray-500 dark:text-gray-300">
@@ -16,7 +16,7 @@
     </div>
 
     <div class="space-y-3 rounded-lg p-6 bg-gray-50 hover:shadow-lg transition-all duration-300 ease-in-out hover:-translate-y-6">
-        <img class="w-40" src="@/assets/img/products/logo-academe-lms.png" alt="Academe LMS">
+        <img loading="lazy" class="w-40 h-auto" src="@/assets/img/products/logo-academe-lms.webp" alt="Academe LMS">
 
         <div class="flex flex-nowrap items-center justify-between gap-4">
             <p class="text-gray-500 dark:text-gray-300">
@@ -32,7 +32,7 @@
     </div>
 
     <div class="space-y-3 rounded-lg p-6 bg-gray-50 hover:shadow-lg transition-all duration-300 ease-in-out hover:-translate-y-6">
-        <img class="w-40" src="@/assets/img/products/logo-cloudbiz-bms.png" alt="Cloudbiz BMS">
+        <img loading="lazy" class="w-40 h-auto" src="@/assets/img/products/logo-cloudbiz-bms.webp" alt="Cloudbiz BMS">
 
         <div class="flex flex-nowrap items-center justify-between gap-4">
             <p class="text-gray-500 dark:text-gray-300">
@@ -48,7 +48,7 @@
     </div>
 
     <div class="space-y-3 rounded-lg p-6 bg-gray-50 hover:shadow-lg transition-all duration-300 ease-in-out hover:-translate-y-6">
-        <img class="w-40" src="@/assets/img/products/logo-medisync-cmr.png" alt="Medisync CMR">
+        <img loading="lazy" class="w-40 h-auto" src="@/assets/img/products/logo-medisync-cmr.webp" alt="Medisync CMR">
 
         <div class="flex flex-nowrap items-center justify-between gap-4">
             <p class="text-gray-500 dark:text-gray-300">
@@ -64,7 +64,7 @@
     </div>
 
     <div class="space-y-3 rounded-lg p-6 bg-gray-50 hover:shadow-lg transition-all duration-300 ease-in-out hover:-translate-y-6">
-        <img class="w-40" src="@/assets/img/products/logo-cloudshop.png" alt="Cloudshop">
+        <img loading="lazy" class="w-40 h-auto" src="@/assets/img/products/logo-cloudshop.webp" alt="Cloudshop">
 
         <div class="flex flex-nowrap items-center justify-between gap-4">
             <p class="text-gray-500 dark:text-gray-300">
@@ -80,7 +80,7 @@
     </div>
 
     <div class="space-y-3 rounded-lg p-6 bg-gray-50 hover:shadow-lg transition-all duration-300 ease-in-out hover:-translate-y-6">
-        <img class="w-40" src="@/assets/img/products/logo-offshore-office-360.png" alt="Offshore Office 360">
+        <img loading="lazy" class="w-40 h-auto" src="@/assets/img/products/logo-offshore-office-360.webp" alt="Offshore Office 360">
 
         <div class="flex flex-nowrap items-center justify-between gap-4">
             <p class="text-gray-500 dark:text-gray-300">
@@ -96,7 +96,7 @@
     </div>
 
     <div class="space-y-3 rounded-lg p-6 bg-gray-50 hover:shadow-lg transition-all duration-300 ease-in-out hover:-translate-y-6">
-        <img class="w-40" src="@/assets/img/products/logo-trietrade.png" alt="Trietrade">
+        <img loading="lazy" class="w-40 h-auto" src="@/assets/img/products/logo-trietrade.webp" alt="Trietrade">
 
         <div class="flex flex-nowrap items-center justify-between gap-4">
             <p class="text-gray-500 dark:text-gray-300">
@@ -112,7 +112,7 @@
     </div>
 
     <div class="space-y-3 rounded-lg p-6 bg-gray-50 hover:shadow-lg transition-all duration-300 ease-in-out hover:-translate-y-6">
-        <img class="w-40" src="@/assets/img/products/logo-synthesis-group.png" alt="Synthesis Group">
+        <img loading="lazy" class="w-40 h-auto" src="@/assets/img/products/logo-synthesis-group.webp" alt="Synthesis Group">
 
         <div class="flex flex-nowrap items-center justify-between gap-4">
             <p class="text-gray-500 dark:text-gray-300">

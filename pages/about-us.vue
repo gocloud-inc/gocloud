@@ -14,13 +14,15 @@
     </section>
 </template>
 
-<script setup>
-    const metaTitle = 'About Us'
-    const metaDescription = 'We’re a group of passionate individuals that love a challenge.'
+<script setup lang="ts">
+    const metaTitle = ref('About Us')
+    const metaDescription = ref('We’re a group of passionate individuals that love a challenge.')
 
-    useHead({
+    useSeoMeta({
         title: metaTitle,
-        description: metaDescription
+        ogTitle: metaTitle,
+        description: metaDescription,
+        ogDescription: metaDescription,
     })
 </script>
 

@@ -280,13 +280,15 @@
     </section>
 </template>
 
-<script setup>
-    const metaTitle = 'Privacy Policy'
-    const metaDescription = 'Effective date: 2020-08-17'
+<script setup lang="ts">
+    const metaTitle = ref('Privacy Policy')
+    const metaDescription = ref('Effective date: 2020-08-17')
 
-    useHead({
+    useSeoMeta({
         title: metaTitle,
-        description: metaDescription
+        ogTitle: metaTitle,
+        description: metaDescription,
+        ogDescription: metaDescription,
     })
 </script>
 

@@ -18,13 +18,15 @@
     </section>
 </template>
 
-<script setup>
-    const metaTitle = 'Our Services'
-    const metaDescription = 'From communications, digital, development & product, we are a full service agency.'
+<script setup lang="ts">
+    const metaTitle = ref('Our Services')
+    const metaDescription = ref('From communications, digital, development & product, we are a full service agency.')
 
-    useHead({
+    useSeoMeta({
         title: metaTitle,
-        description: metaDescription
+        ogTitle: metaTitle,
+        description: metaDescription,
+        ogDescription: metaDescription,
     })
 </script>
 

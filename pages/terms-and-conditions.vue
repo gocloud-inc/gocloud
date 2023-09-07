@@ -121,13 +121,15 @@
     </section>
 </template>
 
-<script setup>
-    const metaTitle = 'Terms and Conditions';
-    const metaDescription = "These terms and conditions outline the rules and regulations for the use of GOCLOUD Inc.'s Website"
+<script setup lang="ts">
+    const metaTitle = ref('Terms and Conditions');
+    const metaDescription = ref("These terms and conditions outline the rules and regulations for the use of GOCLOUD Inc.'s Website")
 
-    useHead({
+    useSeoMeta({
         title: metaTitle,
-        description: metaDescription
+        ogTitle: metaTitle,
+        description: metaDescription,
+        ogDescription: metaDescription,
     })
 </script>
 
