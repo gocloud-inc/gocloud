@@ -69,5 +69,49 @@ export default defineNuxtConfig({
 			src: 'plugins/header',
 			mode: 'client'
 		},
-	]
+	],
+	modules: [
+		'@vite-pwa/nuxt'
+	],
+	pwa: {
+		manifest: {
+			name: 'Gocloud Inc.',
+			short_name: 'Gocloud Inc.',
+			description: 'Gocloud Inc. is committed to innovate and simplify day to day data processes of present industries through the most relevant software products.',
+			theme_color: '#ffffff',
+			background_color: '#ffffff',
+			icons: [
+				{
+					src: 'pwa-64x64.png',
+					sizes: '64x64',
+					type: 'image/png'
+				},
+				{
+					src: 'pwa-192x192.png',
+					sizes: '192x192',
+					type: 'image/png'
+				},
+				{
+					src: 'pwa-512x512.png',
+					sizes: '512x512',
+					type: 'image/png',
+					purpose: 'any'  
+				},
+				{
+					src: 'maskable-icon-512x512.png',
+					sizes: '512x512',
+					type: 'image/png',
+					purpose: 'maskable'
+				}
+			]
+		},
+		workbox: {
+			navigateFallback: '/gocloud/'
+		},
+		devOptions: {
+			enabled: true,
+			type: 'module',
+		},
+		registerType: 'autoUpdate',
+	}
 })
