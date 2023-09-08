@@ -5,7 +5,7 @@
         <div class="container">
             <div class="lg:flex lg:items-center lg:-mx-6">
                 <div class="lg:w-1/2 lg:mx-6">
-                    <h1 class="text-2xl font-semibold text-gray-800 capitalize dark:text-white lg:text-3xl">
+                    <h1 class="text-gradient text-2xl font-bold capitalize lg:text-3xl">
                         Get in touch with us
                     </h1>
 

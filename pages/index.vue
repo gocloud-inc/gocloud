@@ -25,7 +25,7 @@
                 Having cloud based systems positions your company to be at the forefront of efficient use of your data resources.
             </p>
 
-            <div class="flex flex-wrap justify-center mt-8 gap-2 animate__animated animate__fadeInUp">
+            <div class="flex flex-wrap justify-center mt-8 gap-4 animate__animated animate__fadeInUp">
                 <NuxtLink to="/contact-us" class="button-primary max-sm:w-full">
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 2.001a4 4 0 0 1 3.771 2.666a1 1 0 0 1-1.84.774l-.045-.107a2 2 0 0 0-3.88.517L10.002 6v1.999L17.75 8a2.25 2.25 0 0 1 2.245 2.096l.005.154v9.496a2.25 2.25 0 0 1-2.096 2.245l-.154.005H6.25A2.25 2.25 0 0 1 4.005 19.9L4 19.746V10.25a2.25 2.25 0 0 1 2.096-2.245L6.25 8l1.751-.001V6A3.999 3.999 0 0 1 12 2.001zM12 13.5a1.499 1.499 0 1 0 0 2.997a1.499 1.499 0 0 0 0-2.997z" fill="currentColor" fill-rule="nonzero"/></svg>
 
@@ -41,7 +41,7 @@
     <section class="py-24 bg-white dark:bg-gray-900">
         <div class="container flex flex-col items-center mx-auto text-center">
             <h2 class="max-w-2xl mx-auto text-2xl font-bold tracking-tight text-gray-800 xl:text-4xl" data-aos="fade-up" data-aos-duration="100">
-                Bring your Business to the <span class="text-blue-500">next level.</span>
+                Bring your Business to the <span class="text-gradient">next level.</span>
             </h2>
 
             <p class="max-w-4xl mt-6 text-center text-base text-gray-500" data-aos="fade-up" data-aos-duration="200">
@@ -98,11 +98,84 @@
         </div>
     </section>
 
+    <section class="py-24">
+        <div class="container">
+            <div class="flex flex-wrap lg:flex-nowrap items-center justify-between lg:gap-24">
+                <div data-aos="fade-up">
+                    <h2 class="text-gradient text-5xl font-bold capitalize">
+                        How we work
+                    </h2>
+        
+                    <p class="my-6 text-gray-500 xl:mt-3">
+                        Having worked with a wide range of clients (advertising, marketing, SME’s, and startups) for more than 15 years. We’ve formulated a process that’s focused on collaboration and business thinking.
+                    </p>
+
+                    <NuxtLink to="/contact-us" class="button-ghost">
+                        Let's work together
+    
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="currentColor" d="M13.267 4.209a.75.75 0 0 0-1.034 1.086l6.251 5.955H3.75a.75.75 0 0 0 0 1.5h14.734l-6.251 5.954a.75.75 0 0 0 1.034 1.087l7.42-7.067a.996.996 0 0 0 .3-.58a.758.758 0 0 0-.001-.29a.995.995 0 0 0-.3-.578l-7.419-7.067Z"/></svg>
+                    </NuxtLink>
+                </div>
+
+                <div class="grid grid-cols-1 gap-8 mt-8 xl:mt-12 md:grid-cols-2 xl:grid-cols-2" data-aos="fade-up">
+                    <div class="p-8 space-y-3 border-2 bg-white border-gray-200 rounded-xl transition-all duration-300 ease-in-out hover:shadow-lg hover:-translate-y-6">
+                        <span class="inline-block text-blue-500">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24"><path fill="currentColor" d="M14.22 3.737a2.25 2.25 0 0 1 1.56 0l4.307 1.592a.25.25 0 0 1 .163.234v6.913a5.502 5.502 0 0 1 1.5 2.379V5.563a1.75 1.75 0 0 0-1.143-1.641L16.3 2.33a3.75 3.75 0 0 0-2.6 0L9.393 3.922A1.75 1.75 0 0 0 8.25 5.563v2.793a4.75 4.75 0 0 1 1.5 0V5.563a.25.25 0 0 1 .163-.234l4.307-1.592Zm.65 7.507a1.744 1.744 0 0 0-.263-.123L10.3 9.529a3.75 3.75 0 0 0-2.6 0l-4.307 1.592a1.75 1.75 0 0 0-1.143 1.641v5.67a1.75 1.75 0 0 0 1.143 1.642L7.7 21.666a3.75 3.75 0 0 0 2.6 0l2.639-.976a5.53 5.53 0 0 1-1.06-1.207l-2.099.776a2.25 2.25 0 0 1-1.56 0l-4.307-1.592a.25.25 0 0 1-.163-.235v-5.67a.25.25 0 0 1 .163-.234l4.307-1.592a2.25 2.25 0 0 1 1.56 0l3.33 1.231a5.482 5.482 0 0 1 1.76-.923Zm-2.783 1.972a.747.747 0 0 0-.355.034L9 14.197l-2.74-.948a.75.75 0 1 0-.49 1.418l2.48.857v2.7a.75.75 0 0 0 1.5 0v-2.7l1.45-.503a5.48 5.48 0 0 1 .887-1.805Zm-.782-6.503a.75.75 0 0 0 .464.954l2.659.919c.37.128.774.128 1.144 0l2.65-.919a.75.75 0 0 0-.49-1.417l-2.65.918a.25.25 0 0 1-.164 0l-2.659-.919a.75.75 0 0 0-.954.464Zm8.863 12.393a4.5 4.5 0 1 0-1.06 1.06l2.612 2.613a.75.75 0 0 0 1.06-1.06l-2.612-2.613ZM19.5 16.5a3 3 0 1 1-6 0a3 3 0 0 1 6 0Z"/></svg>
+                        </span>
+
+                        <h1 class="text-xl font-bold text-gray-700 capitalize">Discovery & Research</h1>
+
+                        <p class="text-gray-500 dark:text-gray-300">
+                            We gather all information and data about the project for us to be able to come up with a solution fit for your needs
+                        </p>
+                    </div>
+
+                    <div class="lg:top-12 p-8 space-y-3 border-2 bg-white border-gray-200 rounded-xl transition-all duration-300 ease-in-out hover:shadow-lg hover:-translate-y-6">
+                        <span class="inline-block text-blue-500">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24"><path fill="currentColor" d="M11.25 6.75a.75.75 0 0 1 1.5 0v1.5a.75.75 0 0 1-1.5 0v-1.5Zm5.03 1.466a.75.75 0 0 0-1.06 0l-1.061 1.06a.75.75 0 1 0 1.06 1.061l1.061-1.06a.75.75 0 0 0 0-1.06Zm-7.5 0a.75.75 0 0 0-1.06 1.06l1.06 1.061a.75.75 0 1 0 1.061-1.06l-1.06-1.06ZM12 2.001a7.25 7.25 0 0 1 7.25 7.25c0 2.096-.9 4.02-2.663 5.742a.75.75 0 0 0-.175.265l-.032.103l-1.13 4.895a2.25 2.25 0 0 1-2.02 1.737l-.173.007h-2.114a2.25 2.25 0 0 1-2.147-1.577l-.045-.167l-1.13-4.895a.75.75 0 0 0-.206-.368c-1.68-1.64-2.577-3.463-2.659-5.444l-.006-.298l.004-.24A7.25 7.25 0 0 1 12 2.002Zm2.115 16.498H9.884l.329 1.42a.75.75 0 0 0 .627.573l.103.008h2.114a.75.75 0 0 0 .7-.483l.03-.099l.328-1.419ZM12 3.501a5.75 5.75 0 0 0-5.746 5.53l-.004.22l.007.277c.076 1.563.8 3.02 2.206 4.392c.264.258.46.576.571.926l.049.178l.455 1.975h1.712V10.75a.75.75 0 0 1 1.5 0V17h1.711l.458-1.976a2.25 2.25 0 0 1 .493-.97l.127-.133c1.404-1.373 2.128-2.828 2.204-4.392l.007-.277l-.004-.22A5.75 5.75 0 0 0 12 3.5Z"/></svg>
+                        </span>
+
+                        <h1 class="text-xl font-bold text-gray-700 capitalize">Strategy and Ideation</h1>
+
+                        <p class="text-gray-500 dark:text-gray-300">
+                            Collaborating with our clients to provide the produce the best strategy and insights
+                        </p>
+                    </div>
+
+                    <div class="p-8 space-y-3 border-2 bg-white border-gray-200 rounded-xl transition-all duration-300 ease-in-out hover:shadow-lg hover:-translate-y-6">
+                        <span class="inline-block text-blue-500">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24"><path fill="currentColor" d="M6.25 3.5A1.75 1.75 0 0 0 4.5 5.25v2.5c0 .966.784 1.75 1.75 1.75h2.5a1.75 1.75 0 0 0 1.75-1.75v-2.5A1.75 1.75 0 0 0 8.75 3.5h-2.5Zm7.25 1.75c0-.966.784-1.75 1.75-1.75h2.5c.966 0 1.75.784 1.75 1.75v2.5a1.75 1.75 0 0 1-1.75 1.75h-2.5a1.75 1.75 0 0 1-1.75-1.75v-2.5ZM15.25 5a.25.25 0 0 0-.25.25v2.5c0 .138.112.25.25.25h2.5a.25.25 0 0 0 .25-.25v-2.5a.25.25 0 0 0-.25-.25h-2.5ZM7 17.5a1.5 1.5 0 1 0 0-3a1.5 1.5 0 0 0 0 3ZM6.5 13h6.31a6.511 6.511 0 0 1 2.186-1.5H6.5a4.5 4.5 0 1 0 0 9h5.232a6.456 6.456 0 0 1-.558-1.5H6.5a3 3 0 1 1 0-6Zm4 3c0 .45.197.852.51 1.127a6.464 6.464 0 0 1 .709-2.6A1.5 1.5 0 0 0 10.5 16ZM23 17.5a5.5 5.5 0 1 1-11 0a5.5 5.5 0 0 1 11 0Zm-2.146-2.354a.5.5 0 0 0-.708 0L16.5 18.793l-1.646-1.647a.5.5 0 0 0-.708.708l2 2a.5.5 0 0 0 .708 0l4-4a.5.5 0 0 0 0-.708Z"/></svg>
+                        </span>
+
+                        <h1 class="text-xl font-bold text-gray-700 capitalize">Production & Testing</h1>
+
+                        <p class="text-gray-500 dark:text-gray-300">
+                            This is where your ideas come to life. We’ve spent years honing and perfecting our craft and our work speaks for itself
+                        </p>
+                    </div>
+
+                    <div class="p-8 space-y-3 border-2 bg-white border-gray-200 rounded-xl transition-all duration-300 ease-in-out hover:shadow-lg hover:-translate-y-6">
+                        <span class="inline-block text-blue-500">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24"><path fill="currentColor" d="M14.77 12.4c.15.07.32.1.48.1c.33 0 .64-.13.88-.36L18.31 10h.94C20.77 10 22 8.77 22 7.25v-2.5C22 3.23 20.77 2 19.25 2h-4.5C13.23 2 12 3.23 12 4.75v2.5c0 1.26.85 2.32 2 2.65v1.35c0 .5.31.95.77 1.15ZM13.5 4.75c0-.69.56-1.25 1.25-1.25h4.5c.69 0 1.25.56 1.25 1.25v2.5c0 .69-.56 1.25-1.25 1.25h-1.56l-2.19 2.15V8.5h-.75c-.69 0-1.25-.56-1.25-1.25v-2.5ZM8 13.5c-1.93 0-3.5-1.57-3.5-3.5S6.07 6.5 8 6.5s3.5 1.57 3.5 3.5s-1.57 3.5-3.5 3.5ZM8 8c-1.1 0-2 .9-2 2s.9 2 2 2s2-.9 2-2s-.9-2-2-2Zm0 14c-2.06 0-3.64-.56-4.7-1.67c-1.336-1.404-1.303-3.174-1.3-3.357v-.013C2 15.89 2.9 15 4 15h8c1.1 0 2 .9 2 2l.001.006c.003.127.045 1.91-1.3 3.324C11.64 21.44 10.06 22 8 22Zm-4-5.5c-.28 0-.5.22-.5.5v.005c0 .095-.017 1.348.9 2.305c.76.79 1.97 1.19 3.6 1.19c1.63 0 2.85-.41 3.61-1.21c.913-.952.892-2.192.89-2.258v-.002c0-.31-.23-.54-.5-.54H4v.01Z"/></svg>
+                        </span>
+
+                        <h1 class="text-xl font-bold text-gray-700 capitalize">Feedback & Iteration</h1>
+
+                        <p class="text-gray-500 dark:text-gray-300">
+                            As problem solvers we also see to it that we iterate & make informed improvements to our strategy and solution
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
     <section class="py-24 bg-gray-50">
         <div class="container">
             <div class="flex flex-wrap items-center justify-between gap-4">
                 <div>
-                    <h2 class="text-2xl font-bold text-gray-800 capitalize lg:text-3xl" data-aos="fade-up" data-aos-duration="100">
+                    <h2 class="text-gradient text-2xl font-bold capitalize lg:text-3xl" data-aos="fade-up" data-aos-duration="100">
                         Services we offer
                     </h2>
         
@@ -127,7 +200,7 @@
         <div class="container">
             <div class="flex flex-wrap items-center justify-between gap-4">
                 <div>
-                    <h2 class="text-2xl font-bold text-gray-800 capitalize lg:text-3xl" data-aos="fade-up" data-aos-duration="100">
+                    <h2 class="text-gradient text-2xl font-bold capitalize lg:text-3xl" data-aos="fade-up" data-aos-duration="100">
                         Harnessing Cloud Based Technologies
                     </h2>
         

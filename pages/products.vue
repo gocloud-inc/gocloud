@@ -3,15 +3,7 @@
 
     <section class="py-24">
         <div class="container">
-            <h2 class="text-2xl font-bold text-gray-800 capitalize lg:text-3xl" data-aos="fade-up" data-aos-duration="100">
-                Our Products
-            </h2>
-
-            <p class="mt-4 text-gray-500 xl:mt-3" data-aos="fade-up" data-aos-duration="500">
-                Providing you with systems to process industry relevant data
-            </p>
-
-            <div class="grid grid-cols-1 gap-8 mt-8 xl:mt-12 md:grid-cols-2 xl:grid-cols-3" data-aos="fade-up">
+            <div class="grid grid-cols-1 gap-8 md:grid-cols-2 xl:grid-cols-3" data-aos="fade-up">
                 <Products></Products>
 
                 <div class="space-y-3 rounded-lg p-6 bg-gray-50 hover:shadow-lg transition-all duration-300 ease-in-out hover:-translate-y-6">
@@ -77,7 +69,7 @@
 
 <script setup lang="ts">
     const metaTitle = ref('Our Products')
-    const metaDescription = ref('We work together with you to let the world know we share the mission to make the world a better place with your products and services.')
+    const metaDescription = ref('Providing you with systems to process industry relevant data')
 
     useSeoMeta({
         title: metaTitle,

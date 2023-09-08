@@ -117,7 +117,7 @@
 
 <style lang="css" scoped>
     nav.stay-sticky {
-        @apply bg-white py-5 border shadow-sm transition-all duration-300 ease-in-out;
+        @apply bg-white/70 backdrop-blur-md py-5 shadow-sm transition-all duration-300 ease-in-out;
     }
 
     nav .router-link-exact-active {

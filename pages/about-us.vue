@@ -4,7 +4,7 @@
     <section class="py-24 bg-white dark:bg-gray-900">
         <div class="container flex flex-col items-center mx-auto text-center">
             <h2 class="max-w-2xl mx-auto text-2xl font-bold tracking-tight text-gray-800 xl:text-4xl" data-aos="fade-up" data-aos-duration="100">
-                Bring your Business to the <span class="text-blue-500">next level.</span>
+                Bring your Business to the <span class="text-gradient">next level.</span>
             </h2>
 
             <p class="max-w-4xl mt-6 text-center text-base text-gray-500" data-aos="fade-up" data-aos-duration="200">
