@@ -105,13 +105,15 @@ export default defineNuxtConfig({
 				}
 			]
 		},
+		registerType: 'autoUpdate',
 		workbox: {
-			navigateFallback: '/gocloud/'
+			navigateFallback: '/gocloud/',
+			clientsClaim: true,
+			skipWaiting: true
 		},
 		devOptions: {
 			enabled: true,
 			type: 'module',
 		},
-		registerType: 'autoUpdate',
 	}
 })
