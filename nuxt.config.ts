@@ -78,7 +78,7 @@ export default defineNuxtConfig({
 			name: 'Gocloud Inc.',
 			short_name: 'Gocloud Inc.',
 			description: 'Gocloud Inc. is committed to innovate and simplify day to day data processes of present industries through the most relevant software products.',
-			theme_color: '#ffffff',
+			theme_color: '#e5f0ff',
 			background_color: '#ffffff',
 			icons: [
 				{
